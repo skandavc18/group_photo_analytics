@@ -1,7 +1,7 @@
 import cv2
 import sys
 import os
-dirname = "C:\\xampp\\htdocs\\prakalpa\\temp\\"
+dirname = "./temp"
 # Get user supplied values
 try:
     imagePath = sys.argv[1]
