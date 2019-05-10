@@ -8,7 +8,7 @@ from collections import Counter
 data = pd.read_csv('database.csv')
 data.set_index("Name", inplace=True)
 data.head()
-with open("./temp/list.txt") as f:
+with open("list.txt") as f:
     l=f.read().splitlines()
 age = pd.DataFrame(columns=['Age'])
 gender={'male':0,'female':0}
@@ -39,4 +39,4 @@ plt.bar(education.keys(), education.values())
 plt.savefig('./temp/Education.png')
 plt.figure()
 plt.bar(profession.keys(), profession.values())
-plt.savefig('./temp/Profession.png')
+plt.savefig('Profession.png')
