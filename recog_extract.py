@@ -9,7 +9,7 @@ def encoding(x):
     else:
         return (temp,0)
 
-dirname = "C:\\xampp\\htdocs\\prakalpa\\temp\\"
+dirname = "./"
 
 with open("imgdb.pkl", 'rb') as f:
     imgdb = pickle.load(f)
@@ -58,7 +58,7 @@ else:
                 name = known_face_names[first_match_index]
                 face_names.append(name)
         i += 1
-    with open("C:\\xampp\\htdocs\\prakalpa\\temp\\list.txt", 'w') as f:
+    with open("list.txt", 'w') as f:
        f.writelines("%s\n" % i for i in face_names)
 if len(face_names)<i:
     print(1)
