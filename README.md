@@ -4,7 +4,7 @@ emotion analytics
 This project was done for University Exhibition.A web interface was developed for this.
 
 The problem was basically to do analytics on a group image. This has tremendous applications in the field of analytics.
-The problem was divided into 3 tasks
+The problem was divided into 4 tasks
 
 1. Extract the faces. 
 2. Recognition of faces. If the face is there in Database, do nothing. Else add to Database along with other relevent info like   age,gender,etc from the user.
