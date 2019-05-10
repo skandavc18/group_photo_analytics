@@ -2,7 +2,7 @@ import cv2
 import os
 import sys
 import pickle
-#from face_recognition import load_image_file, face_locations, face_encodings, compare_faces
+from face_recognition import load_image_file, face_locations, face_encodings, compare_faces
 import numpy as np
 import csv
 
@@ -18,7 +18,7 @@ dirname = "C:\\xampp\\htdocs\\prakalpa\\temp\\"
 
 with open("imgdb.pkl", 'rb') as f:
     imgdb = pickle.load(f)
-print(imgdb)
+
 name=sys.argv[1]
 file = sys.argv[2]
 age = sys.argv[3]
