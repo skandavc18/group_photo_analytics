@@ -16,5 +16,6 @@ So the add_imgdb.py,recognition.py,recog_extract.py,face_detect_extract.py are f
 The emotion_analysis.py file is the one which loads the model and analyzes the emotions and plots the emotion graph. 
 The emotion_model_train.py trains a CNN which inturn is used to detect emotions in the face.
 
-To start training the model, run the command python emotion_model_train.py
+To start training the model, run the command python emotion_model_train.py .
+
 A model.h5 file is created. This model is loaded by the emotion_analysis.py to do the analysis part
